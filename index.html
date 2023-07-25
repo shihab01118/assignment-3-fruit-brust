@@ -14,8 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- tailwind custom styles -->
     <script>
         tailwind.config = {
@@ -38,7 +38,57 @@
 </head>
 
 <body>
+    <!-- header section -->
+    <header class="container mx-auto">
+        <!-- navbar -->
+        <nav class="px-5 md:px-8 lg:px-12 py-5 lg:bg-p-color lg:rounded-full">
+            <div class=" flex items-center justify-between">
 
+                <!-- Left Side: List Items -->
+                <ul class="hidden lg:flex space-x-7">
+                    <li><a href="#" class="text-white text-lg font-medium">Home</a></li>
+                    <li><a href="#" class="text-white text-lg font-medium">About</a></li>
+                    <li><a href="#" class="text-white text-lg font-medium">Shop</a></li>
+                    <li><a href="#" class="text-white text-lg font-medium">All Fruits</a></li>
+                </ul>
+
+                <!-- Middle: Logo -->
+                <div class="flex gap-2 items-center">
+                    <img src="./images/logo.png" alt="logo">
+                    <a href="#" class="lg:text-white font-bold text-4xl lg:mx-auto">Fruit Burst</a>
+                </div>
+
+                <!-- Right Side: Search Box -->
+                <div class="relative hidden lg:block">
+                    <input type="text" placeholder="Search here"
+                        class="bg-white text-[#121212] rounded-full py-2 px-4 pr-10 focus:outline-none">
+                    <span class="absolute right-3 top-3 text-[#121212]">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-4.35-4.35M8.83 15.17A6 6 0 016 9a6 6 0 1111.66 2.03M15 15l5 5"></path>
+                        </svg>
+                    </span>
+                </div>
+
+                <!-- hamburger -->
+                <button class="block lg:hidden rounded focus:outline-none hover:bg-gray-100 group">
+                    <div class="w-5 h-1 bg-black mb-1"></div>
+                    <div class="w-5 h-1 bg-black mb-1"></div>
+                    <div class="w-5 h-1 bg-black mb-1"></div>
+                    <div class="absolute top-0 right-0  opacity-0 bg-white shadow-lg transform group-focus:right-0 group-focus:opacity-100 transition-all duration-300 rounded-md">
+                        <ul class="flex flex-col px-4 py-10 space-y-2">
+                            <li><a href="#" class="text-lg font-medium">Home</a></li>
+                            <li><a href="#" class="text-lg font-medium">About</a></li>
+                            <li><a href="#" class="text-lg font-medium">Shop</a></li>
+                            <li><a href="#" class="text-lg font-medium">All Fruits</a></li>
+                            <li><input type="text" placeholder="Search here" class="bg-white text-[#121212] rounded-xl py-2 px-4 pr-10 focus:outline-none border border-p-color w-40 md:w-52"></li>
+                        </ul>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
