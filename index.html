@@ -36,6 +36,9 @@
         .lato {
             font-family: 'Lato', sans-serif;
         }
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 
@@ -43,7 +46,7 @@
     <!-- header section -->
     <header class="container mx-auto">
         <!-- navbar -->
-        <nav class="px-5 md:px-8 lg:px-12 py-5 lg:bg-p-color lg:rounded-full">
+        <nav class="px-5 md:px-8 lg:px-12 py-5 lg:bg-p-color lg:rounded-full mt-5 lg:mt-0">
             <div class=" flex items-center justify-between">
 
                 <!-- Left Side: List Items -->
@@ -56,8 +59,8 @@
 
                 <!-- Middle: Logo -->
                 <div class="flex gap-2 items-center">
-                    <img src="./images/logo.png" alt="logo">
-                    <a href="#" class="lg:text-white font-bold text-4xl lg:mx-auto">Fruit Burst</a>
+                    <img src="./images/logo.png" alt="logo" class="w-[30px] md:w-auto">
+                    <a href="#" class="lg:text-white font-bold text-2xl md:text-4xl lg:mx-auto">Fruit Burst</a>
                 </div>
 
                 <!-- Right Side: Search Box -->
@@ -102,8 +105,8 @@
         </nav>
 
         <!-- banner -->
-        <section class="mt-12 px-5 md:px-8 lg:px-0">
-            <div class="carousel w-full rounded-lg">
+        <section class="lg:mt-12 px-5 md:px-8 lg:px-0">
+            <div class="carousel h-[300px] md:h-[450px] lg:h-auto w-full rounded-lg">
                 <!-- slider 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero lg:min-h-[calc(100vh-120px)]"
@@ -111,17 +114,17 @@
                         <div class="hero-overlay bg-opacity-50"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="space-y-5 text-white">
-                                <h1 class="text-4xl md:5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
+                                <h1 class="text-2xl md:5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
                                 </h1>
-                                <p class="font-medium text-xl">We supply highly quality organic products</p>
+                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products</p>
                                 <button class="btn bg-p-color text-white font-bold text-xl capitalize border-none">Shop
                                     Now</button>
                             </div>
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                        <a href="#slide4" class="text-white font-semibold text-xl hover:text-p-color p-2">❮</a>
+                        <a href="#slide2" class="text-white font-semibold text-xl hover:text-p-color p-2">❯</a>
                     </div>
                 </div>
 
@@ -140,8 +143,8 @@
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
+                        <a href="#slide1" class="text-white font-semibold text-xl hover:text-p-color p-2">❮</a>
+                        <a href="#slide3" class="text-white font-semibold text-xl hover:text-p-color p-2">❯</a>
                     </div>
                 </div>
 
@@ -160,8 +163,8 @@
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
+                        <a href="#slide2" class="text-white font-semibold text-xl hover:text-p-color p-2">❮</a>
+                        <a href="#slide4" class="text-white font-semibold text-xl hover:text-p-color p-2">❯</a>
                     </div>
                 </div>
 
@@ -180,8 +183,8 @@
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
+                        <a href="#slide3" class="text-white font-semibold text-xl hover:text-p-color p-2">❮</a>
+                        <a href="#slide1" class="text-white font-semibold text-xl hover:text-p-color p-2">❯</a>
                     </div>
                 </div>
             </div>
@@ -193,23 +196,23 @@
             <!-- fruits container -->
             <div class="grid grid-cols-5 gap-20 w-[80%] bg-white shadow-lg px-12 py-16 mx-auto rounded-lg">
                 <div class="text-center">
-                    <img src="./images/fruit1.png" alt="" class="block mx-auto">
+                    <img src="./images/fruit1.png" alt="" class="block mx-auto h-[92px] ">
                     <p class="text-t-color font-medium text-xl">Cherry</p>
                 </div>
                 <div class="text-center">
-                    <img src="./images/fruit2.png" alt="" class="block mx-auto">
+                    <img src="./images/fruit2.png" alt="" class="block mx-auto h-[92px]">
                     <p class="text-t-color font-medium text-xl">Orange</p>
                 </div>
                 <div class="text-center">
-                    <img src="./images/fruit3.png" alt="" class="block mx-auto">
+                    <img src="./images/fruit3.png" alt="" class="block mx-auto h-[92px]">
                     <p class="text-t-color font-medium text-xl">Mango</p>
                 </div>
                 <div class="text-center">
-                    <img src="./images/fruit4.png" alt="" class="block mx-auto">
+                    <img src="./images/fruit4.png" alt="" class="block mx-auto h-[92px]">
                     <p class="text-t-color font-medium text-xl">Strawberry</p>
                 </div>
                 <div class="text-center">
-                    <img src="./images/fruit5.png" alt="" class="block mx-auto">
+                    <img src="./images/fruit5.png" alt="" class="block mx-auto h-[92px]">
                     <p class="text-t-color font-medium text-xl">Pomegranate</p>
                 </div>
             </div>
@@ -219,7 +222,7 @@
     <!-- main section -->
     <main class="container mx-auto 12 px-5 md:px-8 lg:px-0">
         <!-- deal of the day section -->
-        <section class="my-24">
+        <section class="mb-24">
 
             <!-- deal of the day content -->
             <div class="flex flex-col gap-6 lg:flex-row items-center lg:justify-between">
