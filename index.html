@@ -24,6 +24,8 @@
                     colors: {
                         clifford: '#da373d',
                         'p-color': '#F85559',
+                        'h-color': '#121212',
+                        't-color': 'rgba(18, 18, 18, 0.60)',
                     }
                 }
             }
@@ -94,7 +96,7 @@
 
         <!-- banner -->
         <section class="mt-12 px-5 md:px-8 lg:px-0">
-            <div class="carousel w-full">
+            <div class="carousel w-full rounded-lg">
                 <!-- slider 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero min-h-[calc(100vh-120px)]" style="background-image: url('./images/banner1.png');">
@@ -104,7 +106,7 @@
                                 <h1 class="text-4xl md:5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
                                 </h1>
                                 <p class="font-medium text-xl">We supply highly quality organic products</p>
-                                <button class="btn bg-p-color text-white font-bold text-xl capitalize">Shop Now</button>
+                                <button class="btn bg-p-color text-white font-bold text-xl capitalize border-none">Shop Now</button>
                             </div>
                         </div>
                     </div>
@@ -123,7 +125,7 @@
                                 <h1 class="text-4xl md:5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
                                 </h1>
                                 <p class="font-medium text-xl">We supply highly quality organic products</p>
-                                <button class="btn bg-p-color text-white font-bold text-xl capitalize">Shop Now</button>
+                                <button class="btn bg-p-color text-white font-bold text-xl capitalize border-none">Shop Now</button>
                             </div>
                         </div>
                     </div>
@@ -142,7 +144,7 @@
                                 <h1 class="text-4xl md:5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
                                 </h1>
                                 <p class="font-medium text-xl">We supply highly quality organic products</p>
-                                <button class="btn bg-p-color text-white font-bold text-xl capitalize">Shop Now</button>
+                                <button class="btn bg-p-color text-white font-bold text-xl capitalize border-none">Shop Now</button>
                             </div>
                         </div>
                     </div>
@@ -161,7 +163,7 @@
                                 <h1 class="text-4xl md:5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
                                 </h1>
                                 <p class="font-medium text-xl">We supply highly quality organic products</p>
-                                <button class="btn bg-p-color text-white font-bold text-xl capitalize">Shop Now</button>
+                                <button class="btn bg-p-color text-white font-bold text-xl capitalize ">Shop Now</button>
                             </div>
                         </div>
                     </div>
@@ -173,6 +175,59 @@
             </div>
         </section>
     </header>
+
+    <!-- main section -->
+    <main class="container mx-auto">
+        <!-- deal of the day -->
+        <section class="my-24">
+
+            <!-- deal of the day content -->
+            <div class="flex flex-col lg:flex-row items-center justify-between">
+
+                <!-- deal of the day content left -->
+                <div class="space-y-5">
+                    <h3 class="text-h-color font-bold text-5xl">Deal of the day</h3>
+                    <p class="text-t-color font-medium max-w-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+
+                <!-- deal of the day content right -->
+                <div class="flex space-x-5">
+                    <div class="text-center space-y-2">
+                        <p class="text-h-color text-5xl font-bold">29</p>
+                        <p class="text-t-color font-medium">Days</p>
+                    </div>
+                    <div class="pt-4">
+                        <i class="fa-solid fa-ellipsis-vertical text-t-color"></i>
+                    </div>
+                    <div class="text-center space-y-2">
+                        <p class="text-h-color text-5xl font-bold">15</p>
+                        <p class="text-t-color font-medium">Hours</p>
+                    </div>
+                    <div class="pt-4">
+                        <i class="fa-solid fa-ellipsis-vertical text-t-color"></i>
+                    </div>
+                    <div class="text-center space-y-2">
+                        <p class="text-h-color text-5xl font-bold">25</p>
+                        <p class="text-t-color font-medium">Minutes</p>
+                    </div>
+                    <div class="pt-4">
+                        <i class="fa-solid fa-ellipsis-vertical text-t-color"></i>
+                    </div>
+                    <div class="text-center space-y-2">
+                        <p class="text-h-color text-5xl font-bold">08</p>
+                        <p class="text-t-color font-medium">Seconds</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- deal of the day cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 Lg:grid-cols-4 gap-6">
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
 </body>
 
 </html>
