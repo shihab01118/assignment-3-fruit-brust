@@ -36,6 +36,7 @@
         .lato {
             font-family: 'Lato', sans-serif;
         }
+
         .hidden {
             display: none;
         }
@@ -115,11 +116,14 @@
                         <div class="hero-overlay bg-opacity-50"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="space-y-5 text-white">
-                                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
+                                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold">Exotic tastes at your <br>
+                                    doorstep
                                 </h1>
-                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products</p>
-                                <button class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Shop
-                                Now</button>
+                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products
+                                </p>
+                                <button
+                                    class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Shop
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -136,11 +140,14 @@
                         <div class="hero-overlay bg-opacity-50"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="space-y-5 text-white">
-                                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
+                                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold">Exotic tastes at your <br>
+                                    doorstep
                                 </h1>
-                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products</p>
-                                <button class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Shop
-                                Now</button>
+                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products
+                                </p>
+                                <button
+                                    class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Shop
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -157,11 +164,14 @@
                         <div class="hero-overlay bg-opacity-50"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="space-y-5 text-white">
-                                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
+                                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold">Exotic tastes at your <br>
+                                    doorstep
                                 </h1>
-                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products</p>
-                                <button class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Shop
-                                Now</button>
+                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products
+                                </p>
+                                <button
+                                    class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Shop
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -178,11 +188,14 @@
                         <div class="hero-overlay bg-opacity-50"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="space-y-5 text-white">
-                                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold">Exotic tastes at your <br> doorstep
+                                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold">Exotic tastes at your <br>
+                                    doorstep
                                 </h1>
-                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products</p>
-                                <button class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Shop
-                                Now</button>
+                                <p class="md:font-medium text-base md:text-xl">We supply highly quality organic products
+                                </p>
+                                <button
+                                    class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Shop
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -196,7 +209,7 @@
 
         <!-- banner fruit section -->
         <section class="hidden lg:block relative -top-24">
-            
+
             <!-- fruits container -->
             <div class="grid grid-cols-5 gap-20 w-[80%] bg-white shadow-lg px-12 py-12 mx-auto rounded-lg">
                 <div class="text-center">
@@ -236,7 +249,9 @@
                 <!-- deal of the day content left -->
                 <div class="space-y-2 md:space-y-5 text-center lg:text-start">
                     <h3 class="text-h-color font-bold text-2xl md:text-5xl capitalize">Deal of the day</h3>
-                    <p class="text-t-color text-sm md:text-base md:font-medium max-w-[280px] md:max-w-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="text-t-color text-sm md:text-base md:font-medium max-w-[280px] md:max-w-xl">Contrary to
+                        popular belief, is not simply random text. It has roots in a piece of classical Latin literature
+                        from 45 BC, making it over 2000 years old.</p>
                 </div>
 
                 <!-- deal of the day content right -->
@@ -285,7 +300,27 @@
                             <i class="fa-regular fa-star text-p-color"></i>
                             <i class="fa-regular fa-star text-p-color"></i>
                         </div>
-                        <a href="#" class="text-p-color text-lg font-bold">Details</a>
+
+                        <!-- card 1 modal -->
+                        <button class="text-p-color text-lg font-bold" onclick="apple.showModal()">Details</button>
+                        <dialog id="apple" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <img src="./images/fruit6.png" alt="Apple" class="block mx-auto mb-6"/>
+                                <h3 class="font-bold text-lg">Apple</h3>
+                                <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                <div class="flex justify-center mb-6">
+                                    <i class="fa-solid fa-star text-p-color"></i>
+                                    <i class="fa-solid fa-star-half-stroke text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                </div>
+                                <div class="modal-action text-center flex justify-center gap-4 md:gap-6 lg:gap-8">
+                                    <button class="btn outline-1 outline-p-color bg-white text-p-color font-semibold md:font-bold md:text-xl capitalize border-none">Close</button>
+                                    <button class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
 
@@ -302,7 +337,27 @@
                             <i class="fa-regular fa-star text-p-color"></i>
                             <i class="fa-regular fa-star text-p-color"></i>
                         </div>
-                        <a href="#" class="text-p-color text-lg font-bold">Details</a>
+                        
+                        <!-- card 2 modal -->
+                        <button class="text-p-color text-lg font-bold" onclick="orange.showModal()">Details</button>
+                        <dialog id="orange" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <img src="./images/fruit7.png" alt="Orange" class="block mx-auto mb-6"/>
+                                <h3 class="font-bold text-lg">Orange</h3>
+                                <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                <div class="flex justify-center mb-6">
+                                    <i class="fa-solid fa-star text-p-color"></i>
+                                    <i class="fa-solid fa-star-half-stroke text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                </div>
+                                <div class="modal-action text-center flex justify-center gap-4 md:gap-6 lg:gap-8">
+                                    <button class="btn outline-1 outline-p-color bg-white text-p-color font-semibold md:font-bold md:text-xl capitalize border-none">Close</button>
+                                    <button class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
 
@@ -319,7 +374,27 @@
                             <i class="fa-regular fa-star text-p-color"></i>
                             <i class="fa-regular fa-star text-p-color"></i>
                         </div>
-                        <a href="#" class="text-p-color text-lg font-bold">Details</a>
+                        
+                        <!-- card 3 modal -->
+                        <button class="text-p-color text-lg font-bold" onclick="dragon.showModal()">Details</button>
+                        <dialog id="dragon" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <img src="./images/fruit8.png" alt="Red Dragon" class="block mx-auto mb-6"/>
+                                <h3 class="font-bold text-lg">Red Dragon</h3>
+                                <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                <div class="flex justify-center mb-6">
+                                    <i class="fa-solid fa-star text-p-color"></i>
+                                    <i class="fa-solid fa-star-half-stroke text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                </div>
+                                <div class="modal-action text-center flex justify-center gap-4 md:gap-6 lg:gap-8">
+                                    <button class="btn bg-white text-p-color font-semibold md:font-bold md:text-xl capitalize border-none">Close</button>
+                                    <button class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
 
@@ -336,7 +411,27 @@
                             <i class="fa-regular fa-star text-p-color"></i>
                             <i class="fa-regular fa-star text-p-color"></i>
                         </div>
-                        <a href="#" class="text-p-color text-lg font-bold">Details</a>
+                        
+                        <!-- card 4 modal -->
+                        <button class="text-p-color text-lg font-bold" onclick="banana.showModal()">Details</button>
+                        <dialog id="banana" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <img src="./images/fruit9.png" alt="Banana" class="block mx-auto mb-6"/>
+                                <h3 class="font-bold text-lg">Banana</h3>
+                                <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                <div class="flex justify-center mb-6">
+                                    <i class="fa-solid fa-star text-p-color"></i>
+                                    <i class="fa-solid fa-star-half-stroke text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                    <i class="fa-regular fa-star text-p-color"></i>
+                                </div>
+                                <div class="modal-action text-center flex justify-center gap-4 md:gap-6 lg:gap-8">
+                                    <button class="btn outline-1 outline-p-color bg-white text-p-color font-semibold md:font-bold md:text-xl capitalize border-none">Close</button>
+                                    <button class="btn bg-p-color text-white font-semibold md:font-bold md:text-xl capitalize border-none">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
             </div>
@@ -357,7 +452,9 @@
 
                         <!-- meet the team title section -->
                         <h1 class="mb-5 text-2xl md:text-5xl font-bold capitalize">Meet the team</h1>
-                        <p class="mb-7 text-sm md:text-base md:font-medium max-w-[280px] md:max-w-xl mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        <p class="mb-7 text-sm md:text-base md:font-medium max-w-[280px] md:max-w-xl mx-auto">Contrary
+                            to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                            literature from 45 BC, making it over 2000 years old.
                         </p>
 
                         <!-- member section -->
@@ -443,7 +540,9 @@
             <!-- why choose us section heading -->
             <div class="text-center space-y-2 md:space-y-5">
                 <h3 class="text-h-color font-bold text-2xl md:text-5xl capitalize">Why Choose Us</h3>
-                <p class="text-t-color text-sm md:text-base md:font-medium max-w-[280px] md:max-w-xl mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <p class="text-t-color text-sm md:text-base md:font-medium max-w-[280px] md:max-w-xl mx-auto">Contrary
+                    to popular belief, is not simply random text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old.</p>
             </div>
 
             <!-- why choose us section content -->
